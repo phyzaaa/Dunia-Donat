@@ -7,15 +7,52 @@
     <title>Toko donat</title>
 </head>
 <style>
-    #beranda p {
-        text-align: center;
+    body {
+    background-color: #fff3d6;
+    color: #402600;
+    }
+    .cover {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 10%;
+    }
+    .content {
+        width: 50%;
+        max-width: 600px;
+    }
+    }
+    .label {
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .visual {
+        width: 25%;
+        display: flex;
+    }
+    .description {
+        margin-bottom: 50px;
+        margin-top: 20px;
     }
 </style>
 <body>
-    <section id="beranda">
-        <p>Welcome to</p>
-        <h1>Dunia Donat</h1>
-        <img src="/uploads/2023/02/donut.png">
+    <section class="cover">
+        <div class="content">
+            <p>Selamat datang di</p>
+            <h1>Dunia Donat</h1>
+            <p class="description">
+                Donat empuk, fresh setiap hari, topping lumer.
+                Bikin hari-mu makin lengkap.
+            </p>
+        </div>
+
+        <div class="visual">
+            <img 
+            class="main-image"
+            src="/uploads/2023/02/donut.png">
+        </div>
     </section>
 </body>
 </html>
